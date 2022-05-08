@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2D38CE82827353500F4DE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CE72827353500F4DE03 /* main.cpp */; };
+		A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */; };
+		A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		A2D38CE42827353500F4DE03 /* data_struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = data_struct; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D38CE72827353500F4DE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BtreeNode.cpp; sourceTree = "<group>"; };
+		A2D38CEF2827380100F4DE03 /* BtreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BtreeNode.hpp; sourceTree = "<group>"; };
+		A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BtreeVisit.cpp; sourceTree = "<group>"; };
+		A2D38CF228274B9B00F4DE03 /* BtreeVisit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BtreeVisit.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A2D38CE72827353500F4DE03 /* main.cpp */,
+				A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */,
+				A2D38CEF2827380100F4DE03 /* BtreeNode.hpp */,
+				A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */,
+				A2D38CF228274B9B00F4DE03 /* BtreeVisit.hpp */,
 			);
 			path = data_struct;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */,
 				A2D38CE82827353500F4DE03 /* main.cpp in Sources */,
+				A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
