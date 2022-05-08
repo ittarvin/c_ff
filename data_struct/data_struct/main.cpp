@@ -10,10 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
-  
+    std::cout << "二叉树遍历 DEMO \n";
+    std::cout << "初始化二叉树信息 \n";
     BinTree b = initBinTree();
-    
     //先序遍历
     std::cout << "先序遍历\n";
     preorder(b);
