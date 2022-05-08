@@ -9,6 +9,8 @@
 
 static BinTree initBinTree(){
     
+    std::cout << "进行二叉树初始化 \n";
+    
     BinTree A = (btnode *)malloc(sizeof(btnode));
     A -> data = 'A';
     
@@ -49,4 +51,22 @@ static BinTree initBinTree(){
     E -> lchild = G;
     
     return A;
+}
+
+
+static void printBinTreeNodes(){
+    
+    BinTree b = initBinTree();
+    //先序遍历
+    std::cout << "先序遍历\n";
+    preorder(b);
+    std::cout << "\n";
+    
+    std::cout << "中序遍历\n";
+    inorder(b);
+    std::cout << "\n";
+    
+    std::cout << "后序遍历\n";
+    postorder(b);
+    std::cout << "\n";
 }
