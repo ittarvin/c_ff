@@ -1,13 +1,18 @@
 //
-//  BtreeVisit.cpp
+//  BtreeStackVisit.cpp
 //  data_struct
 //
-//  Created by Arvin on 2022/5/8.
+//  Created by Arvin on 2022/5/10.
 //
 
-#include "BtreeVisit.hpp"
+#include "BtreeStackVisit.hpp"
 
-static BinTree initBinTree(){
+static void visitForStack(BinTree bt){
+    char v = bt -> data;
+    std::cout << " "<< v << " ";
+};
+
+static BinTree initBinTreeForStack(){
     
     std::cout << "进行二叉树初始化 \n";
     
@@ -53,28 +58,34 @@ static BinTree initBinTree(){
     return A;
 }
 
-
-static void printBinTreeNodes(){
-    
-    BinTree b = initBinTree();
-    //先序遍历
-    std::cout << "先序遍历\n";
-    preorder(b);
-    std::cout << "\n";
-    
-    std::cout << "中序遍历\n";
-    inorder(b);
-    std::cout << "\n";
-    
-    std::cout << "后序遍历\n";
-    postorder(b);
-    std::cout << "\n";
-    
-    int i = Height(b);
-    std::cout << "二叉树高度 "<< i << "\n";
-    
-    std::cout << "层次遍历\n";
-    levelorder(b);
-    std::cout << "\n";
+//先序遍历
+static void preorderByStack(BinTree bt){
+    BinTree p;
+    LKStack ls = InitStack();
+    if(bt == NULL)return;
+    p = bt;
+    while (p != NULL
+           || !EmptyStack(ls)) {
+        
+        if(p != NULL){
+            visitForStack(p);
+            Push(ls, p);
+            p = p -> lchild;
+        }else{
+            p = GetTop(ls);
+            Pop(ls);
+            p = p -> rchild;
+        }
+    }
     
 }
+
+
+static void printBtreeStackVisitNodes(){
+    BinTree b = initBinTreeForStack();
+    //先序遍历
+    std::cout << "先序遍历\n";
+    preorderByStack(b);
+    std::cout << "\n";
+}
+

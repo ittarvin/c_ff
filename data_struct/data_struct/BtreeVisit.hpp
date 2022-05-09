@@ -12,8 +12,11 @@
 #include <iostream>
 
 #include "BtreeNode.hpp"
+#include "CycQue.hpp"
+#include "CycQue.cpp"
 
 using namespace btree;
+using namespace que;
 
 static void visit(BinTree bt){
     char v = bt -> data;
@@ -46,6 +49,39 @@ static void postorder(BinTree bt){
         visit(bt);
     }
 }
+
+//求二叉树高度
+static int Height(BinTree bt){
+    int lh,rh;
+    if(bt == NULL) return 0;
+    else
+    {
+        lh = Height(bt -> lchild);
+        rh = Height(bt -> rchild);
+        return 1 + (lh > rh ? lh : rh);
+    }
+}
+
+//层次遍历
+static void levelorder(BinTree bt){
+    CycQue Q = (cycqueue *)malloc(sizeof(cycqueue));
+    InitQueue(Q);
+    if(bt!=NULL){
+        EnQueue(Q,bt);
+        while(!EmptyQueue(Q)){
+            BinTree p = GetHead(Q);
+            OutQueue(Q);
+            visit(p);
+            if(p -> lchild != NULL){
+                EnQueue(Q,p -> lchild);
+            }
+            if(p -> rchild != NULL){
+                EnQueue(Q,p -> rchild);
+            }
+        }
+    }
+}
+
 
 
 #endif /* BtreeVisit_hpp */
