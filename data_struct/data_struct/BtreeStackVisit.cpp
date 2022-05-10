@@ -80,12 +80,39 @@ static void preorderByStack(BinTree bt){
     
 }
 
+//中序遍历
+static void inorderByStack(BinTree bt){
+    BinTree p;
+    LKStack ls = InitStack();
+    if(bt == NULL)return;
+    p = bt;
+    while (p != NULL
+           || !EmptyStack(ls)) {
+        
+        if(p != NULL){
+            Push(ls, p);
+            p = p -> lchild;
+        }else{
+            p = GetTop(ls);
+            Pop(ls);
+            visitForStack(p);
+            p = p -> rchild;
+        }
+    }
+    
+}
+
+
 
 static void printBtreeStackVisitNodes(){
     BinTree b = initBinTreeForStack();
     //先序遍历
     std::cout << "先序遍历\n";
     preorderByStack(b);
+    std::cout << "\n";
+    //中序遍历
+    std::cout << "中序遍历\n";
+    inorderByStack(b);
     std::cout << "\n";
 }
 
