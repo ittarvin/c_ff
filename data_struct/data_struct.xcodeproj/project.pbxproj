@@ -12,6 +12,7 @@
 		A237BB1B2828887A00CAEF9A /* LkStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB192828887A00CAEF9A /* LkStack.cpp */; };
 		A237BB1E2829CEF500CAEF9A /* BtreeStackVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB1C2829CEF500CAEF9A /* BtreeStackVisit.cpp */; };
 		A237BB21282B273F00CAEF9A /* StructOfTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB1F282B273F00CAEF9A /* StructOfTree.cpp */; };
+		A237BB24282C797B00CAEF9A /* HuffmanTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */; };
 		A2D38CE82827353500F4DE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CE72827353500F4DE03 /* main.cpp */; };
 		A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */; };
 		A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */; };
@@ -40,6 +41,8 @@
 		A237BB1D2829CEF500CAEF9A /* BtreeStackVisit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BtreeStackVisit.hpp; sourceTree = "<group>"; };
 		A237BB1F282B273F00CAEF9A /* StructOfTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructOfTree.cpp; sourceTree = "<group>"; };
 		A237BB20282B273F00CAEF9A /* StructOfTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StructOfTree.hpp; sourceTree = "<group>"; };
+		A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuffmanTree.cpp; sourceTree = "<group>"; };
+		A237BB23282C797B00CAEF9A /* HuffmanTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HuffmanTree.hpp; sourceTree = "<group>"; };
 		A2D38CE42827353500F4DE03 /* data_struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = data_struct; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D38CE72827353500F4DE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BtreeNode.cpp; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				A237BB192828887A00CAEF9A /* LkStack.cpp */,
 				A237BB1A2828887A00CAEF9A /* LkStack.hpp */,
 				A237BB172828885900CAEF9A /* SeqStack.hpp */,
+				A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */,
+				A237BB23282C797B00CAEF9A /* HuffmanTree.hpp */,
 			);
 			path = data_struct;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				A237BB1B2828887A00CAEF9A /* LkStack.cpp in Sources */,
 				A237BB152827D61100CAEF9A /* CycQue.cpp in Sources */,
 				A237BB21282B273F00CAEF9A /* StructOfTree.cpp in Sources */,
+				A237BB24282C797B00CAEF9A /* HuffmanTree.cpp in Sources */,
 				A2D38CE82827353500F4DE03 /* main.cpp in Sources */,
 				A237BB1E2829CEF500CAEF9A /* BtreeStackVisit.cpp in Sources */,
 				A237BB182828885900CAEF9A /* SeqStack.cpp in Sources */,
