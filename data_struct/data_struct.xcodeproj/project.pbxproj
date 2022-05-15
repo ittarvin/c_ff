@@ -13,6 +13,11 @@
 		A237BB1E2829CEF500CAEF9A /* BtreeStackVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB1C2829CEF500CAEF9A /* BtreeStackVisit.cpp */; };
 		A237BB21282B273F00CAEF9A /* StructOfTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB1F282B273F00CAEF9A /* StructOfTree.cpp */; };
 		A237BB24282C797B00CAEF9A /* HuffmanTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */; };
+		A237BB27282FCC6700CAEF9A /* StraightInsertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB25282FCC6700CAEF9A /* StraightInsertSort.cpp */; };
+		A237BB2A283088E400CAEF9A /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB28283088E400CAEF9A /* BubbleSort.cpp */; };
+		A237BB2D2830F50500CAEF9A /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB2B2830F50500CAEF9A /* QuickSort.cpp */; };
+		A237BB302831054E00CAEF9A /* SelectSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB2E2831054E00CAEF9A /* SelectSort.cpp */; };
+		A237BB3328310F9600CAEF9A /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB3128310F9600CAEF9A /* MergeSort.cpp */; };
 		A2D38CE82827353500F4DE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CE72827353500F4DE03 /* main.cpp */; };
 		A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */; };
 		A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */; };
@@ -43,6 +48,16 @@
 		A237BB20282B273F00CAEF9A /* StructOfTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StructOfTree.hpp; sourceTree = "<group>"; };
 		A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HuffmanTree.cpp; sourceTree = "<group>"; };
 		A237BB23282C797B00CAEF9A /* HuffmanTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HuffmanTree.hpp; sourceTree = "<group>"; };
+		A237BB25282FCC6700CAEF9A /* StraightInsertSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StraightInsertSort.cpp; sourceTree = "<group>"; };
+		A237BB26282FCC6700CAEF9A /* StraightInsertSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StraightInsertSort.hpp; sourceTree = "<group>"; };
+		A237BB28283088E400CAEF9A /* BubbleSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BubbleSort.cpp; sourceTree = "<group>"; };
+		A237BB29283088E400CAEF9A /* BubbleSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BubbleSort.hpp; sourceTree = "<group>"; };
+		A237BB2B2830F50500CAEF9A /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		A237BB2C2830F50500CAEF9A /* QuickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickSort.hpp; sourceTree = "<group>"; };
+		A237BB2E2831054E00CAEF9A /* SelectSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SelectSort.cpp; sourceTree = "<group>"; };
+		A237BB2F2831054E00CAEF9A /* SelectSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SelectSort.hpp; sourceTree = "<group>"; };
+		A237BB3128310F9600CAEF9A /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		A237BB3228310F9600CAEF9A /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 		A2D38CE42827353500F4DE03 /* data_struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = data_struct; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D38CE72827353500F4DE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BtreeNode.cpp; sourceTree = "<group>"; };
@@ -81,6 +96,8 @@
 		A2D38CE62827353500F4DE03 /* data_struct */ = {
 			isa = PBXGroup;
 			children = (
+				A237BB2B2830F50500CAEF9A /* QuickSort.cpp */,
+				A237BB2C2830F50500CAEF9A /* QuickSort.hpp */,
 				A237BB1F282B273F00CAEF9A /* StructOfTree.cpp */,
 				A237BB20282B273F00CAEF9A /* StructOfTree.hpp */,
 				A2D38CE72827353500F4DE03 /* main.cpp */,
@@ -98,6 +115,14 @@
 				A237BB172828885900CAEF9A /* SeqStack.hpp */,
 				A237BB22282C797B00CAEF9A /* HuffmanTree.cpp */,
 				A237BB23282C797B00CAEF9A /* HuffmanTree.hpp */,
+				A237BB25282FCC6700CAEF9A /* StraightInsertSort.cpp */,
+				A237BB28283088E400CAEF9A /* BubbleSort.cpp */,
+				A237BB29283088E400CAEF9A /* BubbleSort.hpp */,
+				A237BB26282FCC6700CAEF9A /* StraightInsertSort.hpp */,
+				A237BB2E2831054E00CAEF9A /* SelectSort.cpp */,
+				A237BB2F2831054E00CAEF9A /* SelectSort.hpp */,
+				A237BB3128310F9600CAEF9A /* MergeSort.cpp */,
+				A237BB3228310F9600CAEF9A /* MergeSort.hpp */,
 			);
 			path = data_struct;
 			sourceTree = "<group>";
@@ -161,10 +186,15 @@
 			files = (
 				A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */,
 				A237BB1B2828887A00CAEF9A /* LkStack.cpp in Sources */,
+				A237BB3328310F9600CAEF9A /* MergeSort.cpp in Sources */,
+				A237BB302831054E00CAEF9A /* SelectSort.cpp in Sources */,
 				A237BB152827D61100CAEF9A /* CycQue.cpp in Sources */,
 				A237BB21282B273F00CAEF9A /* StructOfTree.cpp in Sources */,
 				A237BB24282C797B00CAEF9A /* HuffmanTree.cpp in Sources */,
 				A2D38CE82827353500F4DE03 /* main.cpp in Sources */,
+				A237BB2A283088E400CAEF9A /* BubbleSort.cpp in Sources */,
+				A237BB2D2830F50500CAEF9A /* QuickSort.cpp in Sources */,
+				A237BB27282FCC6700CAEF9A /* StraightInsertSort.cpp in Sources */,
 				A237BB1E2829CEF500CAEF9A /* BtreeStackVisit.cpp in Sources */,
 				A237BB182828885900CAEF9A /* SeqStack.cpp in Sources */,
 				A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */,

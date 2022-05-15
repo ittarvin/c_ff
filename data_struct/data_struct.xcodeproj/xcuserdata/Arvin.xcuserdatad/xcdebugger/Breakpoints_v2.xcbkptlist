@@ -39,16 +39,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4F737A4F-2130-475C-928F-0B809461033A"
-            shouldBeEnabled = "Yes"
+            uuid = "26E55A02-314D-4434-8B6F-BB3E75E5CA7D"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "data_struct/BtreeStackVisit.cpp"
+            filePath = "data_struct/StraightInsertSort.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "visitForStack(bt)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "printStraightInsertSort()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "981674D5-DDFD-42BD-B180-2E4E03025065"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "data_struct/StraightInsertSort.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "straightInsertSort(R, n)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
