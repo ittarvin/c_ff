@@ -12,8 +12,6 @@
 #include "StraightInsertSort.hpp"
 
 
-typedef recodeType unSortedList4[];
-
-
+typedef recodeType unSortedList5[n];
 
 #endif /* MergeSort_hpp */

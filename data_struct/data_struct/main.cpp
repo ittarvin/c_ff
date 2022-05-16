@@ -12,6 +12,8 @@
 #include "BubbleSort.cpp"
 #include "QuickSort.cpp"
 #include "SelectSort.cpp"
+#include "MergeSort.cpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -30,15 +32,22 @@ int main(int argc, const char * argv[]) {
     std::cout << "4.冒泡排序\n";
     printBubbleSort();
     std::cout << "\n";
-   
+    std::cout << "\n";
+    
     std::cout << "5.快速排序\n";
     printQuickSort();
     std::cout << "\n";
-
+    std::cout << "\n";
 
      std::cout << "6.直接选择排序\n";
      printSelectSort();
      std::cout << "\n";
+    std::cout << "\n";
+    
+    std::cout << "7.二路归并排序\n";
+    printMergeSort();
+    std::cout << "\n";
+    std::cout << "\n";
     
     return 0;
 }
