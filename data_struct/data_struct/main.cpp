@@ -14,6 +14,8 @@
 #include "SelectSort.cpp"
 #include "MergeSort.cpp"
 #include "HeapSort.cpp"
+#include "SearchSqTable.cpp"
+#include "SearchBin.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -51,6 +53,16 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "8.堆排序\n";
     printHeapSort();
+    std::cout << "\n";
+    std::cout << "\n";
+    
+    std::cout << "9.顺序查找\n";
+    printSearchSqTable();
+    std::cout << "\n";
+    std::cout << "\n";
+    
+    std::cout << "10.二分查找\n";
+    printSearchBin();
     std::cout << "\n";
     std::cout << "\n";
     
