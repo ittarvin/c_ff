@@ -16,6 +16,7 @@
 #include "HeapSort.cpp"
 #include "SearchSqTable.cpp"
 #include "SearchBin.cpp"
+#include "SearchBST.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -63,6 +64,17 @@ int main(int argc, const char * argv[]) {
     
     std::cout << "10.二分查找\n";
     printSearchBin();
+    std::cout << "\n";
+    std::cout << "\n";
+    
+    std::cout << "11.二分查找树查找\n";
+    printSearchBST();
+    std::cout << "\n";
+    std::cout << "\n";
+    
+    
+    std::cout << "12.二分查找树插入\n";
+    printInsertBTS();
     std::cout << "\n";
     std::cout << "\n";
     

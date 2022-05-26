@@ -21,6 +21,7 @@
 		A237BB302831054E00CAEF9A /* SelectSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB2E2831054E00CAEF9A /* SelectSort.cpp */; };
 		A237BB3328310F9600CAEF9A /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A237BB3128310F9600CAEF9A /* MergeSort.cpp */; };
 		A27363702835A2D1001871E1 /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A273636E2835A2D1001871E1 /* HeapSort.cpp */; };
+		A294DC21283EE92E00FF2EB2 /* SearchBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A294DC1F283EE92E00FF2EB2 /* SearchBST.cpp */; };
 		A2D38CE82827353500F4DE03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CE72827353500F4DE03 /* main.cpp */; };
 		A2D38CF02827380100F4DE03 /* BtreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */; };
 		A2D38CF328274B9B00F4DE03 /* BtreeVisit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2D38CF128274B9B00F4DE03 /* BtreeVisit.cpp */; };
@@ -67,6 +68,8 @@
 		A237BB3228310F9600CAEF9A /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 		A273636E2835A2D1001871E1 /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		A273636F2835A2D1001871E1 /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
+		A294DC1F283EE92E00FF2EB2 /* SearchBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchBST.cpp; sourceTree = "<group>"; };
+		A294DC20283EE92E00FF2EB2 /* SearchBST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchBST.hpp; sourceTree = "<group>"; };
 		A2D38CE42827353500F4DE03 /* data_struct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = data_struct; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D38CE72827353500F4DE03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A2D38CEE2827380100F4DE03 /* BtreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BtreeNode.cpp; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				A2118058283D91AE000E6A19 /* SearchSqTable.hpp */,
 				A211805A283D97E6000E6A19 /* SearchBin.cpp */,
 				A211805B283D97E6000E6A19 /* SearchBin.hpp */,
+				A294DC1F283EE92E00FF2EB2 /* SearchBST.cpp */,
+				A294DC20283EE92E00FF2EB2 /* SearchBST.hpp */,
 			);
 			path = data_struct;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				A237BB3328310F9600CAEF9A /* MergeSort.cpp in Sources */,
 				A237BB302831054E00CAEF9A /* SelectSort.cpp in Sources */,
 				A211805C283D97E6000E6A19 /* SearchBin.cpp in Sources */,
+				A294DC21283EE92E00FF2EB2 /* SearchBST.cpp in Sources */,
 				A2118059283D91AE000E6A19 /* SearchSqTable.cpp in Sources */,
 				A27363702835A2D1001871E1 /* HeapSort.cpp in Sources */,
 				A237BB152827D61100CAEF9A /* CycQue.cpp in Sources */,
