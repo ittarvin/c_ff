@@ -17,6 +17,8 @@
 #include "SearchSqTable.cpp"
 #include "SearchBin.cpp"
 #include "SearchBST.cpp"
+#include "Dfs.cpp"
+#include "Bfs.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -78,6 +80,16 @@ int main(int argc, const char * argv[]) {
     std::cout << "\n";
     std::cout << "\n";
     
+    
+    std::cout << "13.图-深度优先搜索\n";
+    printGraphDFS();
+    std::cout << "\n";
+    std::cout << "\n";
+    
+    std::cout << "14.图-广度优先搜索\n";
+    printGraphBFS();
+    std::cout << "\n";
+    std::cout << "\n";
     
     return 0;
 }
